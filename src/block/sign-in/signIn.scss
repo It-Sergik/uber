@@ -1,0 +1,23 @@
+@import "src/assets/scss/utils/vars.scss";
+
+.signIn {
+  display: flex;
+  float: left;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  &__button {
+    text-decoration: none;
+    text-transform: none;
+    font-family: $mainFont;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $dark-color;
+    padding: 14px 20px;
+    border: 1px solid $border-light;
+  }
+  &__img {
+    padding-left: 16px;
+  }
+}
