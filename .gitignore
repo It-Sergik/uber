@@ -4,7 +4,6 @@ node_modules
 .vscode
 
 test
-dist
 
 npm-debug.log
 

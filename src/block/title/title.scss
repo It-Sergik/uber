@@ -1,0 +1,15 @@
+@import "/src/assets/scss/utils/vars";
+
+.container-title {
+  margin-top: 56px;
+}
+
+.title {
+  font: {
+    family: $mainFont;
+    weight: $mainFontWeight;
+    size: 22px;
+  }
+  color: $dark-color;
+  line-height: 34px;
+}
