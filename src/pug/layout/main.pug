@@ -5,7 +5,6 @@ html(lang="ru")
     meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0")
     link(rel='stylesheet', href='css/fontawesome-all.min.css')
     link(rel='stylesheet', href='css/style_main.min.css')
-    
     title
       block title
   body
@@ -13,7 +12,7 @@ html(lang="ru")
       include ../../block/search/search
       include ../../block/title/title
       block content
-      section.card
-        .uk-container
-          .uk-grid
+      section.cards
+        .container
+          .row
             include ../../block/card/card

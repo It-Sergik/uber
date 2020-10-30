@@ -1,15 +1,18 @@
-mixin card
-  .uk-grid-small.uk-child-width-expan
-    .uk-card
-      .card-media.uk-card-media-top
-        img(class= "card-media__img" src="./assets/img/content/card-1.png", alt="", srcset="" )
-      .card-title
-        p.card-title__text Макдоналдс — Газетный
+mixin card(card_img, card_title, card_text, card_footer)
+  .col-12.col-md-6.col-lg-4
+    .card.card-container
+      img(class="card-img-top card-img" src= card_img, alt="")
       .card-body
-        p.card-body__text ₽₽ • Бургеры
-      .card-footer
-        p.card-footer__text 25 - 35 мин
+        h5.card-title=card_title
+        p.card-text=card_text
+        p.card-text-footer=card_footer
 
-+card
-+card
-+card
++card("./assets/img/content/home_page/card-1.png", "Макдоналдс — Газетный", "₽₽ • Бургеры", "25 - 35 мин")
++card("./assets/img/content/home_page/card-2.png", "DimSum & Co — ЦДМ", "₽ • Японская • Китайская • Азиатская", "40 - 50 мин")
++card("./assets/img/content/home_page/card-3.png", "ДвижОК — Манежная", "₽ • Американская • Европейская", "35 - 45 мин")
++card("./assets/img/content/home_page/card-4.png", "НЯ — NHA", "₽₽ • Вьетнамская", "30 - 40 мин")
++card("./assets/img/content/home_page/card-5.png", "Точка Дзы — Цветной", "₽₽ • Вьетнамская", "40 - 50 мин")
++card("./assets/img/content/home_page/card-6.png", "Cinnabon", "₽ • Выпечка • Десерты • Капкейки", "25 - 35 мин")
++card("./assets/img/content/home_page/card-7.png", "PIZZELOVE", "₽₽ • Пицца", "15 - 25 мин")
++card("./assets/img/content/home_page/card-8.png", "Zю кафе — Тверская", "₽₽ • Японская", "25 - 35 мин")
++card("./assets/img/content/home_page/card-9.png", "Bar BQ Cafe — Манежная", "₽₽₽ • Европейская", "30 - 40 мин")

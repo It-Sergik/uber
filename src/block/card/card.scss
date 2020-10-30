@@ -1,39 +1,50 @@
 @import "/src/assets/scss/utils/vars";
 
-* {
-  padding: 0px;
-  margin: 0px;
+.card {
+  border: none;
 }
 
-.card-media__img {
-  width: 308px;
+.card-img-top {
+  border-radius: 0px;
+}
+
+.card-img {
   height: 256px;
 }
-.card-title__text,
-.card-body__text,
-.card-footer__text {
+.card-body {
+  padding: 0px;
+}
+.card-title,
+.card-text,
+.card-text-footer {
   font: {
     family: $mainFont;
-    weight: $mainFontWeight;
+    style: normal;
+    weight: 400;
   }
 }
 
-.card-title__text {
+.card-title {
   font-size: 16px;
   line-height: 24px;
   color: $dark-color;
   padding-top: 16px;
 }
 
-.card-body__text {
+.card-text {
   font-size: 14px;
   line-height: 21px;
   color: $light-color;
 }
 
-.card-footer__text {
+.card-text-footer {
+  padding: 0px;
   font-size: 13px;
   line-height: 21px;
   color: $dark-color;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  margin-bottom: 16px;
 }
