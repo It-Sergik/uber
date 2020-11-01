@@ -1,2 +1,7 @@
-.logo
-  img(class= "logo__img" src= "./assets/img/svg/logo.svg", alt="")
+mixin logo(class_name, logo_img)
+  .logo
+    if class_name == "header"
+      img(class= "logo__img" src= logo_img, alt="")
+    else 
+      if class_name == "footer"
+        img(class= "logo__img" src= logo_img, alt="")

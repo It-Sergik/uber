@@ -1,0 +1,12 @@
+.app-stores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__img {
+    width: 120px;
+    height: 40px;
+    margin: 41px 40px 39px 0;
+  }
+}

@@ -1,0 +1,34 @@
+@import "/src/assets/scss/utils/vars";
+
+.social {
+  position: relative;
+  &__text {
+    display: flex;
+
+    &--hash-tag,
+    &--name {
+      font: {
+        family: $mainFont;
+        weight: 400;
+        size: 16px;
+      }
+      line-height: 19px;
+    }
+    &--hash-tag {
+      color: $color-hashTag;
+    }
+    &--name {
+      color: $mainFontColor;
+    }
+  }
+
+  &__icons {
+    display: flex;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 12px 0 0;
+  }
+}

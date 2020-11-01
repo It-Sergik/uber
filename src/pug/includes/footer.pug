@@ -1,2 +1,14 @@
-footer#footer
-  p Copyright (c) foobar
+footer.footer
+  .container.footer-container
+    include ../../block/logo/logo
+    mixin footer_img
+      +logo("footer", "./assets/img/svg/footer-logo.svg")
+    +footer_img
+    include ../../block/horizontal_line/hr_line
+    .contacts
+      .aboutUs
+        include ../../block/select_lang/select_lang        
+        include ../../block/social/social        
+      include ../../block/footer_menu/footer_menu        
+    include ../../block/horizontal_line/hr_line
+    include ../../block/app-stores/app-stores

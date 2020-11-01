@@ -1,9 +1,16 @@
 @import "/src/block/logo/logo";
 @import "/src/block/sign-in/signIn";
 @import "/src/assets/scss/modules/header";
+@import "/src/assets/scss/modules/footer";
 @import "/src/block/search/search";
 @import "/src/block/title/title";
 @import "/src/block/card/card";
+@import "/src/block/horizontal_line/hr_line";
+@import "/src/block/select_lang/select_lang";
+@import "/src/block/social/social";
+@import "/src/block/footer_menu/footer_menu";
+@import "/src/block/app-stores/app-stores";
+
 * {
   padding: 0;
   margin: 0;

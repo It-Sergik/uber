@@ -1,4 +1,7 @@
 header.header
   .container.container-header
-    include ../../block/logo/logo.pug
-    include ../../block/sign-in/signIn.pug
+    include ../../block/logo/logo
+    mixin header_img
+      +logo("header", "./assets/img/svg/header-logo.svg")
+    +header_img
+    include ../../block/sign-in/signIn
