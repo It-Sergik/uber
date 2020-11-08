@@ -1,0 +1,18 @@
+@import "/src/assets/scss/utils/vars";
+
+.privacy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  &__text {
+    font: {
+      family: $mainFont;
+      size: 11px;
+      weight: $mainFontWeight;
+    }
+    color: $mainFontColor;
+    line-height: 13px;
+    margin: 40px 204px 40px 0;
+  }
+}

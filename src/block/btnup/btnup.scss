@@ -1,0 +1,18 @@
+@import "/src/assets/scss/utils/vars";
+
+.btnup {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: $button-color;
+  cursor: pointer;
+  right: 16px;
+  bottom: 24px;
+  &__img {
+    width: 15px;
+    height: 25px;
+    margin: 28px 32px;
+  }
+}
