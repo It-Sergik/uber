@@ -1,0 +1,38 @@
+@import "/src/assets/scss/utils/vars";
+
+.container-menu {
+  background: $mainFontColor;
+  justify-content: flex-start;
+  padding: 32px 29px;
+}
+
+.menuFilter {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid $border-dark;
+}
+
+.menu {
+  &__list {
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    text-decoration: none;
+    font: {
+      family: $mainFont;
+      size: 16px;
+      weight: 400;
+    }
+    line-height: 19px;
+    color: #327430;
+    margin: 32px 40px 29px 0px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

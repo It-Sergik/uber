@@ -11,6 +11,9 @@ html(lang="ru")
       include ../includes/header
       include ../../block/search/search
       include ../../block/title/title
+      mixin titleName
+        +title("Рестораны в Москве")
+      +titleName
       block content
       section.cards
         .container
@@ -19,3 +22,4 @@ html(lang="ru")
       include ../includes/footer
       include ../../block/btnup/btnup
   script(src="../block/select_lang/select_lang.js")
+  script(src="../block/btnup/btnup.js")

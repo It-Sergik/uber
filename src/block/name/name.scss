@@ -1,0 +1,74 @@
+@import "/src/assets/scss/utils/vars";
+
+.name {
+  min-height: 364px;
+  background: url(../img/general/bg_restaurant.png);
+  justify-content: flex-start;
+  background-size: cover;
+  margin-top: 86px;
+}
+
+.restaurantName {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  background-color: $mainFontColor;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 80px 0;
+
+  &__title {
+    font: {
+      family: $mainFont;
+      size: 36px;
+      weight: $mainFontWeight;
+    }
+    color: $dark-color;
+    line-height: 42px;
+    margin: 38px 0 62px 0;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__text {
+    text-decoration: none;
+    font: {
+      family: $mainFont;
+      size: 14px;
+      weight: $mainFontWeight;
+    }
+    color: $light-color;
+    line-height: 16px;
+    margin-right: 50px;
+    margin-bottom: 46px;
+  }
+
+  &__time {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #262626;
+    border-radius: 16px;
+    margin: 0px 0 46px 38px;
+
+    &--text {
+      text-decoration: none;
+      font: {
+        family: $mainFont;
+        size: 13px;
+        weight: 400px;
+      }
+      color: $mainFontColor;
+      line-height: 15px;
+      margin: 8px 16px;
+    }
+  }
+}

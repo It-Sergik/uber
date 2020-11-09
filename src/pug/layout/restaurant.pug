@@ -1,0 +1,23 @@
+doctype
+html(lang="ru")
+  head
+    meta(charset="utf-8")  
+    meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=2.0")
+    link(rel='stylesheet', href='css/fontawesome-all.min.css')
+    link(rel='stylesheet', href='css/style_main.min.css')
+    title
+      block title
+  body
+      include ../includes/header
+      section.name
+        include ../../block/name/name
+      include ../../block/menu/menu
+      include ../../block/title/title
+      mixin titleName
+        +title("Закуски")
+      +titleName
+      block content
+      include ../includes/footer
+      include ../../block/btnup/btnup
+  script(src="../block/select_lang/select_lang.js")
+  script(src="../block/btnup/btnup.js")
