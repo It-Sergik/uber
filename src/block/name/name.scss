@@ -1,10 +1,22 @@
 @import "/src/assets/scss/utils/vars";
 
-.name {
-  min-height: 364px;
-  background: url(../img/general/bg_restaurant.png);
-  justify-content: flex-start;
-  background-size: cover;
+.container-name {
+  display: flex;
+  position: absolute;
+}
+
+.nameBg {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.name__img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
   margin-top: 86px;
 }
 
@@ -31,6 +43,7 @@
 
   &__footer {
     display: flex;
+    position: relative;
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -51,7 +64,6 @@
 
   &__time {
     display: flex;
-    position: relative;
     justify-content: center;
     text-align: center;
     align-items: center;

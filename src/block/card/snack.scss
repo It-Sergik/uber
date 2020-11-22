@@ -1,0 +1,52 @@
+@import "/src/assets/scss/utils/vars";
+
+.snack {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba($color: $border-dark, $alpha: 0.2);
+  border-radius: 2px;
+  margin-bottom: 50px;
+
+  &__body {
+    position: relative;
+    margin: 16px 0 16px 16px;
+  }
+
+  &__title {
+    font: {
+      family: $mainFont;
+      size: 16px;
+      weight: $mainFontWeight;
+    }
+    line-height: 24px;
+    color: $dark-color;
+  }
+
+  &__text {
+    font: {
+      family: $mainFont;
+      size: 13px;
+      weight: $mainFontWeight;
+    }
+    line-height: 21px;
+    color: $light-color;
+  }
+
+  &__price {
+    font: {
+      family: $mainFont;
+      size: 15px;
+      weight: $mainFontWeight;
+    }
+    line-height: 21px;
+    color: $light-color;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.card-img-snack {
+  height: 160px;
+  width: 170px;
+  float: right;
+}

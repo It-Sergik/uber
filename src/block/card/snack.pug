@@ -1,0 +1,15 @@
+mixin snack(snack_img, snack_title, snack_text, snack_price)
+  .col-12.col-md-12.col-lg-6
+    .snack
+      .snack__body
+        .snack__title=snack_title
+        .snack__text=snack_text
+        .snack__price=snack_price
+      img(class="card-img-snack" src= snack_img, alt="")
+
++snack("./assets/img/content/snack/snack-1.png", "Сельдь на бородинском хлебе", "С яйцом и огурцом", "240 ₽")
++snack("./assets/img/content/snack/snack-2.png", "Соленья ассорти","", "320 ₽")
++snack("./assets/img/content/snack/snack-2.png", "Грибы маринованные","", "300 ₽")
++snack("./assets/img/content/snack/snack-2.png", "Сало домашнее с горчицей","", "320 ₽")
++snack("./assets/img/content/snack/snack-2.png", "Малосольная семга","", "390 ₽")
++snack("./assets/img/content/snack/snack-2.png", "Язык говяжий с хреном","", "350 ₽")

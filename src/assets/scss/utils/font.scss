@@ -14,6 +14,19 @@
 
 @font-face {
   font-family: "Roboto";
+  src: url("/assets/fonts/Roboto/Black/Roboto-Regular.eot"); /* IE9 Compat Modes */
+  src: url("/assets/font/Roboto/Black/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/assets/fonts/Roboto/Black/Roboto-Regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */
+      url("/assets/fonts/Roboto/Black/Roboto-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("/assets/fonts/Roboto/Black/Roboto-Regular.svg") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Roboto";
   src: url("/assets/fonts/Roboto/Black/Roboto-Bold.eot"); /* IE9 Compat Modes */
   src: url("/assets/font/Roboto/Black/Roboto-Bold.eot?#iefix")
       format("embedded-opentype"),
@@ -36,17 +49,4 @@
       url("/assets/fonts/Roboto/Black/Roboto-Light.ttf") format("truetype"),
     /* Safari, Android, iOS */
       url("/assets/fonts/Roboto/Black/Roboto-Light.svg") format("svg"); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("/assets/fonts/Roboto/Black/Roboto-Regular.eot"); /* IE9 Compat Modes */
-  src: url("/assets/font/Roboto/Black/Roboto-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("/assets/fonts/Roboto/Black/Roboto-Regular.woff")
-      format("woff"),
-    /* Pretty Modern Browsers */
-      url("/assets/fonts/Roboto/Black/Roboto-Regular.ttf") format("truetype"),
-    /* Safari, Android, iOS */
-      url("/assets/fonts/Roboto/Black/Roboto-Regular.svg") format("svg"); /* Legacy iOS */
 }
